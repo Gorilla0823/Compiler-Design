@@ -2,23 +2,23 @@ Input **`make`** to execute all files,including test1.c,test2.c,and test3.c.
 
 Its main features are as follows.
 
-**`Integer and floating –point data type:int,float`**
+>**`Integer and floating –point data type:int,float`**
 
-If you mixed different data type together , you’ll get an error.
+>>If you mixed different data type together , you’ll get an error.
 
-**`Statements for arithmetic computation.`**
+>**`Statements for arithmetic computation.`**
 
-Support for the priority of the parentheses , and with fully arithmetic computation.
+>>Support for the priority of the parentheses , and with fully arithmetic computation.
 
-**`Comparison expression.`**
+>**`Comparison expression.`**
 
-  Support for the logical operator , such as > , >= , < , <= , != , and == , right and left operand can both be an Identifier , Number , etc.
+>>Support for the logical operator , such as > , >= , < , <= , != , and == , right and left operand can both be an Identifier , Number , etc.
 
-**`If-then-else program construct`**
+>**`If-then-else program construct`**
 
-**`Printf() function with one/two parameters.(support types:%d,%f)`**
+>**`Printf() function with one/two parameters.(support types:%d,%f)`**
 
-	Support for more than two parameters.
+>>Support for more than two parameters.
 
 
 all:test1 test2 test3
@@ -57,7 +57,7 @@ bytecode:
 	rm test*.j
 
 
-If you want to test a program alone, try to input "make file_name" .
+If you want to test a program alone, try to input make **file_name** .
 
 ( The instruction you use will clean myResult.class which produced by "java -jar jasmin.jar <bytecode>.")
 
