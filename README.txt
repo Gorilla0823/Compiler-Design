@@ -1,4 +1,4 @@
-Input make to execute all files,including test1.c,test2.c,and test3.c.
+Input `make` to execute all files,including test1.c,test2.c,and test3.c.
 
 The detail of my makefile is below.
 
@@ -46,7 +46,3 @@ If you want to test a program alone, try to input "make <filename>" .
 The instruction ,"make clean", will clean the lexer,parser,all classes,and tokens files.
 
 The remain instruction, make bytecode,will clean the bytecode produced by the previous instruction.
-
-This project completed the minimum requirements specification.
-
-To see more information about the feature of this project,please take a look at the Description.docx or Description.pdf.
