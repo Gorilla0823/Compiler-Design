@@ -39,7 +39,7 @@ bytecode:
 	rm test*.j
 
 
-If you want to test a program alone, try to input "make <filename>" .
+If you want to test a program alone, try to input "make file_name" .
 
 ( The instruction you use will clean myResult.class which produced by "java -jar jasmin.jar <bytecode>.")
 
